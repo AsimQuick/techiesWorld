@@ -65,7 +65,7 @@ export default function ServicesDetails (props) {
                     <div className="grid grid-cols-1 text-center">
                         <h3 className="mb-6 md:text-2xl text-xl font-medium">Have Question ? Get in touch!</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">We'd love to hear from you.</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">We love to hear from you.</p>
 
                         <div className="mt-6">
                              <Link href="/contactus" className="py-2 px-5  font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-md inline-flex items-center gap-1"><Unicons.UilPhone width={16}/> Contact us</Link>
