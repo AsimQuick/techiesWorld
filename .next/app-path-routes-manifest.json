@@ -1,0 +1,17 @@
+{
+  "/page": "/",
+  "/aboutus/page": "/aboutus",
+  "/contactus/page": "/contactus",
+  "/blogs/page": "/blogs",
+  "/index-three/page": "/index-three",
+  "/index-two/page": "/index-two",
+  "/index-four/page": "/index-four",
+  "/login/page": "/login",
+  "/pricing/page": "/pricing",
+  "/reset-password/page": "/reset-password",
+  "/services/page": "/services",
+  "/signup/page": "/signup",
+  "/team/page": "/team",
+  "/services-detail/[id]/page": "/services-detail/[id]",
+  "/blog-detail/[id]/page": "/blog-detail/[id]"
+}
