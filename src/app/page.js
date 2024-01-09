@@ -42,7 +42,7 @@ business, government agencies, and individuals with tech needs.</p>
 
                     <h3 className="mb-4 md:text-2xl text-xl font-medium text-white text-center pt-4 font-lexend">Our Partners</h3>
                             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-2 mt-8 pb-0">
-                            <image src="/images/logos/amazon-logo6.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"70%", height:"auto"}} />
+                            <img src="/images/logos/amazon-logo6.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"70%", height:"auto"}} />
                             <image src="/images/logos/alibaba-logo3.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"70%", height:"auto"}} />
                             <image src="/images/logos/vmware-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"70%", height:"auto"}} />
                             <image src="/images/logos/vodacom-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"70%", height:"auto"}} />
