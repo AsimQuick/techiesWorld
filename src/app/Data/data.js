@@ -135,7 +135,7 @@ export const MeetOursdata = [
         type: 'Consultant'
     },
     {
-        image: "/images/client/04.jpg",
+        image: "/images/nhial.jpg",
         title: 'Nhial Jok Nhial',
         type: 'Consultant'
     },
