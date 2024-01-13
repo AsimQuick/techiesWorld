@@ -28,14 +28,9 @@ export default function Footer() {
                                         <li className="inline px-2 mt-[10px]"> <Link href="/aboutus"
                                             className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">About
                                             Us</Link></li>
-                                        <li className="inline px-2 mt-[10px]"> <Link href="/blogs"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Blogs</Link>
-                                        </li>
+                                        
                                         <li className="inline px-2 mt-[10px]"> <Link href="/team"
                                             className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Team</Link>
-                                        </li>
-                                        <li className="inline px-2 mt-[10px]"> <Link href="/pricing"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Pricing</Link>
                                         </li>
                                         <li className="inline px-2 mt-[10px]"> <Link href="/contactus"
                                             className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Contact
