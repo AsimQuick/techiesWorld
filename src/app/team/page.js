@@ -28,7 +28,7 @@ export default function Team() {
 
             <section className="relative md:py-24 py-16">
                 <div className="container">
-                    <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                    <div className="flex justify-center mt-8 gap-[30px]">
                     {MeetOursdata.map((item, index) => (
                         <div className="lg:col-span-3 md:col-span-6" key={index} >
                             <div className="group text-center">

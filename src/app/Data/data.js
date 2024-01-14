@@ -125,16 +125,6 @@ export const MeetOursdata = [
         type: 'CEO'
     },
     {
-        image: "/images/client/02.jpg",
-        title: 'Dr. Kuorwel',
-        type: 'Consultant'
-    },
-    {
-        image: "/images/daniel2.jpg",
-        title: 'Mach Deng Daniel',
-        type: 'Consultant'
-    },
-    {
         image: "/images/nhial.jpg",
         title: 'Nhial Jok Nhial',
         type: 'Consultant'

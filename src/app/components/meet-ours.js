@@ -13,7 +13,7 @@ export default function MeetOurs() {
                     <h3 className="mb-4 md:text-2xl text-xl font-medium font-lexend">Meet Our Teammates</h3>
                     <p className="text-slate-400 max-w-xl mx-auto">Our leaders have the experience to get the job done!</p>
                 </div>
-                <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
+                <div className="flex justify-center mt-8 gap-[30px]">
                     {data.map((item, index) => (
                         <div className="lg:col-span-3 md:col-span-6" key={index} >
                             <div className="group text-center">
