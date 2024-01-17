@@ -1311,6 +1311,9 @@ video {
 .col-span-3 {
   grid-column: span 3 / span 3 !important;
 }
+.col-span-2 {
+  grid-column: span 2 / span 2 !important;
+}
 .-m-3 {
   margin: -0.75rem !important;
 }
@@ -1487,6 +1490,9 @@ video {
 .h-\[500px\] {
   height: 500px !important;
 }
+.h-2 {
+  height: 0.5rem !important;
+}
 .min-h-screen {
   min-height: 100vh !important;
 }
@@ -1612,6 +1618,9 @@ video {
 }
 .gap-\[30px\] {
   gap: 30px !important;
+}
+.gap-8 {
+  gap: 2rem !important;
 }
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0 !important;
@@ -1757,6 +1766,14 @@ video {
 .bg-white\/70 {
   background-color: rgb(255 255 255 / 0.7) !important;
 }
+.bg-blue-900 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity)) !important;
+}
+.bg-slate-200 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity)) !important;
+}
 .bg-\[url\(\'\/images\/bg\/bg-2\.jpg\'\)\] {
   background-image: url('/images/bg/bg-2.jpg') !important;
 }
@@ -1889,6 +1906,10 @@ video {
 .py-\[60px\] {
   padding-top: 60px !important;
   padding-bottom: 60px !important;
+}
+.py-4 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 .pb-0 {
   padding-bottom: 0px !important;
@@ -2114,6 +2135,14 @@ video {
   --tw-shadow-color: #64748b !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
+.shadow-slate-600 {
+  --tw-shadow-color: #475569 !important;
+  --tw-shadow: var(--tw-shadow-colored) !important;
+}
+.shadow-slate-800 {
+  --tw-shadow-color: #1e293b !important;
+  --tw-shadow: var(--tw-shadow-colored) !important;
+}
 .outline-none {
   outline: 2px solid transparent !important;
   outline-offset: 2px !important;
@@ -2335,6 +2364,11 @@ video {
   color: rgb(255 255 255 / 0.7) !important;
 }
 
+:is(.dark .dark\:text-slate-400) {
+  --tw-text-opacity: 1 !important;
+  color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+}
+
 :is(.dark .dark\:shadow) {
   --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15) !important;
   --tw-shadow-colored: 0 0 3px var(--tw-shadow-color) !important;
@@ -2377,6 +2411,19 @@ video {
     grid-column: span 6 / span 6 !important;
   }
 
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2 !important;
+  }
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1 !important;
+  }
+
+  .md\:mx-24 {
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+  }
+
   .md\:me-8 {
     margin-inline-end: 2rem !important;
   }
@@ -2417,8 +2464,24 @@ video {
     grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
   }
 
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem !important;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem !important;
+  }
+
   .md\:p-10 {
     padding: 2.5rem !important;
+  }
+
+  .md\:p-8 {
+    padding: 2rem !important;
   }
 
   .md\:px-12 {
@@ -2439,6 +2502,31 @@ video {
   .md\:py-6 {
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+  }
+
+  .md\:px-64 {
+    padding-left: 16rem !important;
+    padding-right: 16rem !important;
   }
 
   .md\:pb-24 {
@@ -2512,6 +2600,10 @@ video {
     grid-column: span 8 / span 8 !important;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2 !important;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2 !important;
   }
@@ -2572,6 +2664,10 @@ video {
     gap: 1.5rem !important;
   }
 
+  .lg\:p-16 {
+    padding: 4rem !important;
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
@@ -2595,6 +2691,11 @@ video {
   .lg\:py-56 {
     padding-top: 14rem !important;
     padding-bottom: 14rem !important;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
   }
 
   .lg\:pb-24 {

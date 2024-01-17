@@ -159,12 +159,12 @@ export const Contact = [
     }
 ]
 
-const corporateTrainingStyle = <span><p>We recognize that the strength of any organization lies in its workforce. That is why Techies World offers customized training sessions aimed at upskilling corporate employees across various sectors. Our expert trainers provide programs to empower your team with the latest technology, enabling your organization to stay ahead of the competition.</p>
+const corporateTrainingStyle = <span><p>We recognize that the strength of any organization lies in its workforce. That's why Techies World offers customized training sessions aimed at upskilling corporate employees across various sectors. Our expert trainers offer training programs to empower your team with the latest technology, enabling your organization to stay ahead of the competition.</p>
 <p>Our training program is partitioned into:</p><br></br>
 <ul>
-    <li><strong>Tailored training modules:</strong> Crafting and delivering sessions that pinpoint specific skills and sectors.</li>
-    <li><strong>Employee Upskilling:</strong> Strategically enhancing skills to prepare your workforce for evolving workplace demands.</li>
-    <li><strong>Cross-Sector expertise:</strong> Catering to a diverse range of sectors, seamlessly integrating technology across industries.</li>
+    <li><strong>Customized Training Modules:</strong> Develop and deliver training sessions focus on specific skills and sectors.</li>
+    <li><strong>Employee Upskilling:</strong> Target training to enhance skills and prepare employees for the evolving workplace demands.</li>
+    <li><strong>Cross-Sector Knowledge:</strong> Catering to a diverse range of sectors integrating technology in different industries.</li>
 </ul>
 </span>;
 
@@ -175,7 +175,7 @@ We ensure that your printed materials are of the highest quality. We create digi
 </span>;
 
 const electronicsStyle = <span><p>Techies World offers an extensive selection of top-quality electronic products, serving both individual and corporate clients. We provide a variety of consumer electronics, including smartphones, tablets, laptops, smartwatches, cameras, and home entertainment systems. Our products are sourced from reputable manufacturers known for their quality and reliability.</p>
-<p>Our products encompass computer hardware components, featuring motherboards, processors, memory modules, storage devices, and peripherals. Additionally, we supply a comprehensive range of networking equipment, including routers, switches, access points, and cables, to support your connectivity and data communication needs.</p>
+<p>Our products include computer hardware components such as motherboards, processors, memory modules, storage devices, and peripherals. We also supply a range of networking equipment, including routers, switches, access points, and cables, to support your connectivity and data communication needs.</p>
 </span>;
 
 const securityStyle = <span><h3>CCTV & Surveillance Devices</h3><br></br>
@@ -201,15 +201,15 @@ export const Servicesdata = [
     {
         id:1,
         image: "/images/custom-tracking-systems.jpg",
-        title: 'Custom Tracking Systems',
-        description: 'We offer tracking services that not only track vehicles and devices but also combat illegal activities ensuring the safety and reliability of your operations. Our real-time tracking system is designed to help customs, businesses, and security agencies monitor vehicle and equipment movements, increasing efficiency and safety. We offer tailored solutions to help security agencies in the prevention of smuggling activities, employing advanced algorithms and data analysis. We use modern technology to ensure secure and reliable tracking service, safeguarding both assets and data.',
+        title: 'Monitoring and Evaluation',
+        description: 'Monitoring and Evaluation (M&E) is a critical process used in various fields such as project management, public health, education, and international development to assess and improve the effectiveness and efficiency of programs, projects, policies, or interventions. Techies World provides systematic expertise in collecting and analyzing data to track progress, measure outcomes, and inform decision-making for organizations. M&E is a flexible process that can be adapted to the specific needs and context of each program or project. Its primary goal is to provide evidence-based information to improve decision-making, accountability, transparency, and the overall effectiveness of initiatives. Successful M&E can lead to better outcomes, more efficient resource allocation, and greater impact in various sectors.',
         descriptionhighlight: 'Precision tracking for secure operations. Combat illegal activities, ensure safety, and boost efficiency. Tailored solutions with advanced tech, safeguarding assets and data.',
     },
     {
         id:2,
         image: "/images/digital-transformation.jpg",
         title: 'Digital Transformation',
-        description: 'This involves leveraging digital technologies to fundamentally change how businesses operate and deliver value to their customers. It\'s not just about adopting new technologies but also about a cultural change that requires organizations to continually challenge the status quo, experiment, and get comfortable with failure. This might include implementing new software systems, using data analytics, and moving to cloud computing solutions. The goal is to improve efficiency, manage risk, and innovate.',
+        description: 'This involves leveraging digital technologies to fundamentally change how businesses operate and deliver value to their customers. It\'s not just about adopting new technologies, but also about a cultural change that requires organizations to continually challenge the status quo, experiment, and get comfortable with failure. This might include implementing new software systems, using data analytics, moving to cloud computing solutions. The goal is to improve efficiency, manage risk, and innovate.',
         descriptionhighlight: 'Revolutionize operations with digital tech, fostering a culture of innovation and resilience. From new software to data analytics and cloud solutions, our goal is to enhance efficiency, manage risk, and drive innovation.',
     },
     {

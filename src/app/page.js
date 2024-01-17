@@ -1,9 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import React, { useState } from 'react'
 import Link from 'next/link';
+import { Link as Link1 } from 'react-scroll';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import Mission from './components/mission';
+import Organogram from './components/organogram';
+import Partners from './components/partners';
 
 const NavbarSmallLight = dynamic(()=>import('./components/navbar-small-light'));
 const Footer = dynamic(()=>import('./components/footer'));
@@ -37,32 +41,20 @@ export default function Index() {
                         <p className="text-slate-400 text-lg max-w-xl mx-auto font-inter">Techies World is a dynamic technology solutions provider committed to delivering top-quality and services for technology needs. Our happy clients include
 business, government agencies, and individuals with tech needs.</p>
                         <div className="mt-8">
-                            <Link href="/contactus" className="py-2 px-5  font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-md font-inter inline-flex items-center gap-1"><Unicons.UilEnvelope width={16}/> Contact Now</Link>
+                            <Link1 to="contact" className="py-2 px-5  font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-md font-inter inline-flex items-center gap-1"><Unicons.UilEnvelope width={16}/> Contact Now</Link1>
                         </div>
                     </div>
-
-                    <h3 className="mb-4 md:text-2xl text-xl font-medium text-white text-center pt-16 font-lexend">Our Partners</h3>
-                            <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-0 mt-8 pb-0 ">
-                            <img src="/images/logos/amazon-logo6.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/alibaba-logo3.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/vmware-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/vodacom-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/safaricom-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/rwandastandardsboard-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/oracle-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/mtn-logo3.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/microsoft-logo2.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                            <img src="/images/logos/etisalat-logo5.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='65px' style={{width:"8rem", height:"auto", opacity:"0.7"}} />
-                                </div>
                 </div>
                 </section>
                 <div class="border-4 border-blue-900"></div>
                 <div class="border-4 border-red-500"></div>
             <About />
             <OurServices title="Why Choose Us?" desc="We customize services from Information Technology to Engineering to meet our clients' specific needs. Our experienced professionals ensure top-quality service and excellent value for money."/>
+            <Organogram />
             <Mission />
             <TechiesServices title="Services" desc="We specialize in a broad range of services to fulfil our clients' needs."/>
             <GetInTouch />
+            <Partners />
             <Footer />
 
         </>

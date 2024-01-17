@@ -20,22 +20,6 @@ export default function Footer() {
                                         <p className="max-w-xl mx-auto text-slate-400 mt-8">Techies World guarantees the highest quality of goods and services, transparency, and ethical practices to our clients and partners.
                                         </p>
                                     </div>
-
-                                    <ul className="list-none footer-list text-center mt-8">
-                                        <li className="inline px-2"> <Link href="/services"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">Services</Link>
-                                        </li>
-                                        <li className="inline px-2 mt-[10px]"> <Link href="/aboutus"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">About
-                                            Us</Link></li>
-                                        
-                                        <li className="inline px-2 mt-[10px]"> <Link href="/team"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Team</Link>
-                                        </li>
-                                        <li className="inline px-2 mt-[10px]"> <Link href="/contactus"
-                                            className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out ms-2">Contact
-                                            Us</Link></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>

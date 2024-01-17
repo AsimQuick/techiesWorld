@@ -59,7 +59,7 @@ export default function NavbarSmallLight() {
 
 
                             <li className={`nav-item`}>
-                                <Link href="/contactus" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Contact us</Link>
+                                <Link1 to="contact" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Contact us</Link1>
                             </li>
                         </ul>
                     </div>
