@@ -159,7 +159,7 @@ export const Contact = [
     }
 ]
 
-const corporateTrainingStyle = <span><p>We recognize that the strength of any organization lies in its workforce. That's why Techies World offers customized training sessions aimed at upskilling corporate employees across various sectors. Our expert trainers offer training programs to empower your team with the latest technology, enabling your organization to stay ahead of the competition.</p>
+const corporateTrainingStyle = <span><p>We recognize that the strength of any organization lies in its workforce. That is why Techies World offers customized training sessions aimed at upskilling corporate employees across various sectors. Our expert trainers offer training programs to empower your team with the latest technology, enabling your organization to stay ahead of the competition.</p>
 <p>Our training program is partitioned into:</p><br></br>
 <ul>
     <li><strong>Customized Training Modules:</strong> Develop and deliver training sessions focus on specific skills and sectors.</li>
