@@ -33,7 +33,11 @@ export default function Index() {
             <NavbarSmallLight />
             <link rel="icon" href="/favicon.ico" sizes="any" />
             <section className="py-36 lg:py-36 w-full table relative bg-[url('/images/techies-world-background2.jpg')] bg-bottom bg-no-repeat" id="home">
-                <div className="absolute inset-0 bg-gradient-to-tl to-slate-950/50 via-slate-950/75 from-slate-950"></div>
+            <video loop autoPlay muted className="absolute inset-0 w-full h-full object-cover">
+            <source src="/images/kigali-south-sudan-technology-services-standards.mp4" type="video/mp4" />
+            </video>    
+            <div className="absolute inset-0 bg-gradient-to-tl to-slate-950/25 via-slate-950/45 from-slate-950"></div>
+
                 <div className="container">
                     <div className="grid grid-cols-1 pb-8 pt-8 text-center mt-4">
 

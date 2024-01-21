@@ -27,6 +27,23 @@ export default function About() {
 
                             </div>
                         </div>
+
+
+                        <div className="lg:col-span-7">
+                        <div className="lg:mr-7">
+                            <p className="text-slate-400 dark:text-slate-300 max-w-2xl font-inter mx-auto">Our operations are in both Rwanda and South Sudan. Our Juba Branch is actively engaged in supporting UN missions and NGOs and we are collaborating with local NGOs and Security Companies with teams on the ground in almost all of the provinces of South Sudan.<br></br></p>
+
+                        </div>
+                    </div>
+
+                    <div className="lg:col-span-5">
+                    <div className="relative">
+                        <Image src="/images/juba-city.jpg" className="rounded-lg shadow-lg relative" alt="" width={0} height={0} sizes='100vw' style={{height:"auto", width:"100%"}}/>
+                        <div className="absolute bottom-2/4 translate-y-2/4 end-0 start-0 text-center">
+                        </div>
+                    </div>
+                </div>
+
                     </div>
                 </div>
             </section>

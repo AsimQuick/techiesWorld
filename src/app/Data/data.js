@@ -203,7 +203,7 @@ export const Servicesdata = [
         image: "/images/custom-tracking-systems.jpg",
         title: 'Monitoring and Evaluation',
         description: 'Monitoring and Evaluation (M&E) is a critical process used in various fields such as project management, public health, education, and international development to assess and improve the effectiveness and efficiency of programs, projects, policies, or interventions. Techies World provides systematic expertise in collecting and analyzing data to track progress, measure outcomes, and inform decision-making for organizations. M&E is a flexible process that can be adapted to the specific needs and context of each program or project. Its primary goal is to provide evidence-based information to improve decision-making, accountability, transparency, and the overall effectiveness of initiatives. Successful M&E can lead to better outcomes, more efficient resource allocation, and greater impact in various sectors.',
-        descriptionhighlight: 'Precision tracking for secure operations. Combat illegal activities, ensure safety, and boost efficiency. Tailored solutions with advanced tech, safeguarding assets and data.',
+        descriptionhighlight: 'Monitoring and Evaluation (M&E) is a critical process used in various fields such as project management, public health, education, and international development',
     },
     {
         id:2,
