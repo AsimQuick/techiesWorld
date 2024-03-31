@@ -41,7 +41,7 @@ export default function Index() {
                 <div className="container">
                     <div className="grid grid-cols-1 pb-8 pt-8 text-center mt-4">
 
-                        <h3 className="font-medium leading-normal text-4xl mb-5 text-white font-lexend">Impowering Innovation</h3>
+                        <h3 className="font-medium leading-normal text-4xl mb-5 text-white font-lexend">Empowering Innovation</h3>
                         <p className="text-slate-400 text-lg max-w-xl mx-auto font-inter">Techies World is a dynamic technology solutions provider committed to delivering top-quality and services for technology needs. Our happy clients include
 business, government agencies, and individuals with tech needs.</p>
                         <div className="mt-8">
